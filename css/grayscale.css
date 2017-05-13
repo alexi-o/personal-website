@@ -3,6 +3,23 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ 
+.flip {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
 .img-centered {
   margin: 0 auto;
 }
