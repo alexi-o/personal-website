@@ -1,3 +1,9 @@
+.about, .portfolio, .skills, .contact {
+  position: relative;
+  bottom: 150px;
+  z-index: 20;
+}
+
 .card.effect_random.flipped .card__front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -11,6 +17,7 @@
 .card {
   position: relative;
   float: left;
+  left: -40px;
   margin: 0 10px;
 }
 
